@@ -1,0 +1,132 @@
+body{
+    margin: auto;
+}
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+ 
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+ 
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: rgb(9, 255, 0);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 20px;
+}
+.nav-flex-row li a:hover{
+    background: #d88080ab;
+    border-radius: 15px;
+}
+ 
+.section-intro {
+    height: 700px;
+    background-image: url('pizza.jpeg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.section-intro h1 {
+    text-align: center;
+    color: rgb(202, 39, 39);
+    font-size: 4em;
+    font-weight: 700;
+}
+ 
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.link-to-book-wrapper {
+    flex: 1;
+}
+ 
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #ff0000c0;
+    padding: 50px 30px;
+}
+ 
+.reservation1{
+    color: rgb(168, 38, 28);
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 3em;
+}
+ 
+.reservation1:hover {
+    background-color: #17ff3e;
+    border-radius: 10px;
+    text-decoration: none;
+}
+ 
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+ 
+.carousel-inner {
+    height: 700px;
+}
+ 
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+ 
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+.btn.btn-primary:hover {
+    background-color: #a76e6e;
+}
+.opening-time,
+.contact-address {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+}
+ 
+.form-group p {
+    font-size: 1.2em;
+}
+ 
+.opening-time p span,
+.contact-address p span {
+    display: block;
+}
+ .container{
+     background-image: url('img_restaurant.jpeg');
+     color: white;
+ }
+ 
